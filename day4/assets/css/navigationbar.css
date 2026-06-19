@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    }
+    div{
+    background-color: black;
+    }
+    ul{
+    list-style-type:none;
+    }
+    ul li{
+    display:inline-block;
+    color:yellow;
+    padding:10px;
+    transition:2s all;
+    }
+    ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    }
+    ul li :hover{
+        background-color:blue;
+    }
+    ul li:hover a{
+        color:red;
+    }
