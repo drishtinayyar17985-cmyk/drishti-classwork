@@ -1,0 +1,16 @@
+*{
+    margin:0px;
+}
+body{
+
+}
+.grid-container{
+    display:grid;
+    gap:20px;
+    grid-template-columns: 1fr 1fr 1fr; /*how many columns grid container will have*/
+    background-color: chartreuse;
+}
+.items{
+    padding: 20px;
+    border:10px solid aqua;
+}
