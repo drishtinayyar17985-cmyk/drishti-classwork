@@ -1,0 +1,39 @@
+*{
+margin:0px;
+}
+body{
+    background-color: thistle;
+}
+.container{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:10px;
+
+}
+.items{
+border:5px solid deeppink;
+padding:20px;
+}
+.header{
+grid-column-start:1;
+grid-column-end: 4;
+}
+.banner{
+grid-column-start: 1;
+grid-column-end: 4;
+height: 300px;
+}
+.footer{
+grid-column-start: 1;
+grid-column-end: 4;
+}
+.sidebar{
+grid-row-start: 3;
+grid-row-end: 9;
+
+}
+.rows{
+ height:30px;
+ padding: 50px;
+ gap: 20px;
+}
