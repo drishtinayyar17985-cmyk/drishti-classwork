@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take user input form a table </title>
+</head>
+<body>
+   <script>
+    let sname,h,e,m,s,c,total,avg,sstatus;
+    sname=prompt("Enter your name");
+    h=parseInt(prompt("Enter your hindi marks"));
+    e=parseInt(prompt("Enter your english marks"));
+    m=parseInt(prompt("Enter your mathematics marks"));
+    s=parseInt(prompt("Enter your science marks"));
+    c=parseInt(prompt("Enter your computer marks"));
+    total=h+e+m+s+c;
+    avg=total/5;
+    sstatus=(avg>=60)?"Pass":"Fail";
+    document.write(`
+    <table border="3" width="100%" >
+    <thead>
+        <tr align="center">
+            <th>Name</th>
+            <th>Hindi</th>
+            <th>English</th>
+            <th>Mathematics</th>
+            <th>Science</th>
+            <th>Computer</th>
+            <th>Total</th>
+            <th>Average</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr align="center">
+            <td>${sname}</td>
+            <td>${h}</td>
+            <td>${e}</td>
+            <td>${m}</td>
+            <td>${s}</td>
+            <td>${c}</td>
+            <td>${total}</td>
+            <td>${avg}</td>
+            <td style="color:${avg>=60?'green':'red'};">${sstatus}</td> 
+    `)
+   </script> 
+</body>
+</html>
