@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display list of products using java script</title>
+</head>
+<body>
+   <script>
+    let pid,pname,price,qty,total;
+    pid=101;
+    pname="Tea";
+    price=20;
+    qty=2;
+    total=price*qty;
+    document.write(`
+    <ul>
+   <li>Product Id:${pid}</li>
+      <li>Product Name:${pname}</li>
+        <li>Product Price:${price}</li>
+          <li>Product Quantity:${qty}</li>
+            <li>Total Amount:${total}</li>
+
+    </ul>
+    `)
+   </script> 
+</body>
+</html>
