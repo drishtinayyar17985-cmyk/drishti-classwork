@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen sizes</title>
+    <style>
+        body{
+            background-color:cadetblue;
+
+        }
+        /*media query*/
+        @media screen and (min-width:370px) and (max-width:480px){
+            body{
+                background-color: yellowgreen;
+            }
+        }
+        @media screen and (min-width:481px) and (max-width:768px) {
+            body{
+                background-color: palevioletred;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
