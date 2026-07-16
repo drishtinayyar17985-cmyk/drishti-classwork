@@ -1,0 +1,25 @@
+{
+  "todos": [
+    {
+      "taskName": "Learn HTML 7",
+      "id": "1"
+    },
+    {
+      "taskName": "rahul",
+      "id": "lDgUvsXOqbo"
+    },
+    {
+      "taskName": "drishti",
+      "id": "OfRnSo5cIAQ"
+    },
+    {
+      "taskName": "disha",
+      "id": "aMMM2vhdUFQ"
+    },
+    {
+      "taskName": "hello",
+      "id": "6yZEXVGLxlU"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
